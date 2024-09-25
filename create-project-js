@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Project name
+read -p "Enter the name of the project: " project_name
+
+# Create directory structure
+mkdir -p "$project_name"/{src/js,dist,assets/{css,js,img},tests}
+
+# Create initial files
+touch "$project_name"/src/index.html
+touch "$project_name"/src/js/app.js
+touch "$project_name"/assets/css/styles.css
+touch "$project_name"/tests/test_app.js
+
+# Add basic content to index.html
+cat <<EOL > "$project_name/src/index.html"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>$project_name</title>
+</head>
+<body>
+    <h1>Bienvenido a $nombre_proyecto</h1>
+    <script src="js/app.js"></script>
+</body>
+</html>
+EOL
+
+# confirmation message
+echo "project structure created in: $project_name"
