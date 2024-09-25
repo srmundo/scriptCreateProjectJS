@@ -51,13 +51,13 @@ Al ejecutar el script, se creará la siguiente estructura de archivos:
 3. **Haz que el script sea ejecutable:**
 
    ```bash
-   chmod +x crear_proyecto_js
+   chmod +x create-project-js
    ```
 
 4. **(Opcional) Mueve el script a un directorio en tu PATH:**
 
    ```bash
-   mv crear_proyecto_js ~/bin/crear_proyecto_js
+   mv crear_proyecto_js ~/bin/create-project-js
    ```
 
    Asegúrate de que `~/bin` esté en tu `PATH` para poder ejecutar el script desde cualquier ubicación.
@@ -90,4 +90,4 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ## Contacto
 
-Para cualquier consulta o comentario, puedes contactarme a través de [tu_correo@example.com](mailto:tu_correo@example.com).
+Para cualquier consulta o comentario, puedes contactarme a través de [victorguedez0608@gmail.com](mailto:victorguedez0608@gmail.com).
